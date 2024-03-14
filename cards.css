@@ -1,0 +1,175 @@
+.cards{
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  background: linear-gradient(39deg, rgba(0,0,0,1) 0%, rgba(0,2,55,1) 86%);
+	filter: drop-shadow(10px 10px 6px #000000);
+  text-align: center;
+}
+
+.cardsContent{
+  position: absolute;
+  text-align: center;
+  width: 450px;
+  height: 500px;
+  background-color: transparent;
+  top: 23%;
+  left: 10%;
+  background: linear-gradient(39deg, rgba(0,0,0,1) 0%, rgba(0,2,55,1) 86%);
+  border-radius: 55px;
+  filter: drop-shadow(10px 10px 6px #4c02d641);
+  .tokenImage{
+    position: relative;
+    border-radius: .5rem;
+    margin-bottom: 10px;
+    width: 25%;
+    max-width: 100%;
+  }
+  .cardTitle{
+    text-transform: uppercase;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 15px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  .description{
+    font-family: "Anonymous Pro", monospace;
+    position: relative;
+    left: 5%;
+    max-width: 400px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+}
+
+.buyButton{
+  position: absolute;
+  right: 24%;
+  margin-top: 50px;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid rgb(34, 0, 128);
+  border-radius: 25px;
+  font-size: 30px;
+  padding: 15px 20px;
+  text-decoration: none;
+  animation-duration : 5s;
+}
+
+.cardsContent:hover{
+  
+  filter: drop-shadow(10px 10px 6px #ffffff);
+}
+
+.cardsContent2{
+  position: absolute;
+  text-align: center;
+  width: 450px;
+  height: 500px;
+  background-color: transparent;
+  top: 23%;
+  left: 41.5%;
+  background: linear-gradient(39deg, rgba(0,0,0,1) 0%, rgba(0,2,55,1) 86%);
+  border-radius: 55px;
+  filter: drop-shadow(10px 10px 6px #4c02d641);
+  .tokenImage2{
+    position: relative;
+    border-radius: .5rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 45%;
+    max-width: 100%;
+  }
+  .cardTitle{
+    text-transform: uppercase;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 15px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  .description{
+    font-family: "Anonymous Pro", monospace;
+    position: relative;
+    left: 5%;
+    max-width: 400px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+}
+
+.buyButton{
+  position: absolute;
+  right: 24%;
+  margin-top: 50px;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid rgb(34, 0, 128);
+  border-radius: 25px;
+  font-size: 30px;
+  padding: 15px 20px;
+  text-decoration: none;
+  animation-duration : 5s;
+}
+
+.cardsContent2:hover{
+  filter: drop-shadow(10px 10px 6px #ffffff);
+}
+
+.cardsContent3{
+  position: absolute;
+  text-align: center;
+  width: 450px;
+  height: 500px;
+  background-color: transparent;
+  top: 23%;
+  left: 73%;
+  background: linear-gradient(39deg, rgba(0,0,0,1) 0%, rgba(0,2,55,1) 86%);
+  border-radius: 55px;
+  filter: drop-shadow(10px 10px 6px #4c02d641);
+  .tokenImage3{
+    position: relative;
+    border-radius: .5rem;
+    margin-bottom: 10px;
+    width: 25%;
+    max-width: 100%;
+  }
+  .cardTitle{
+    text-transform: uppercase;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 15px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  .description{
+    font-family: "Anonymous Pro", monospace;
+    position: relative;
+    left: 5%;
+    max-width: 400px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+}
+
+.buyButton{
+  position: absolute;
+  right: 24%;
+  margin-top: 50px;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid rgb(34, 0, 128);
+  border-radius: 25px;
+  font-size: 30px;
+  padding: 15px 20px;
+  text-decoration: none;
+  animation-duration : 5s;
+}
+
+.cardsContent3:hover{
+  filter: drop-shadow(10px 10px 6px #ffffff);
+}

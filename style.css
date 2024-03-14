@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	height: 85px;
+	z-index: 10;
+	margin-top: -5px;
+	background: linear-gradient(39deg, rgba(0,0,0,1) 0%, rgba(0,2,55,1) 86%);
+	filter: drop-shadow(10px 10px 6px #000000);
+}
+
+nav{
+	position: relative;
+	margin-right: 4rem;
+	text-align: center;
+}
+
+header li{
+	position: relative;
+	display: inline-flex;
+	text-align: center;
+}
+
+header ul{
+	position: relative;
+	margin-left: 5rem;
+}
+
+header a {
+	position: relative;
+	text-decoration: none;
+	font-size: 2rem;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Anton", sans-serif;
+	letter-spacing: 10px;
+	top: 35%;
+	font-weight:normal;
+}
+.container{
+	position: relative;
+}
+
+/*
+Body Section
+*/
+
+.introduction{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	filter: drop-shadow(10px 10px 6px #000000);
+	background: linear-gradient(39deg, rgba(0,0,0,1) 0%, rgba(0,2,55,1) 86%);
+}
+
+.introTexts{
+	position: absolute;
+	text-align: start;
+	left: 13%;
+	top: 45%;
+}
+
+.introTexts h1{
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	font-size: 25px;
+	letter-spacing: 7px;
+	color: #5E17EB;
+}
+
+.introTexts h2{
+	text-transform: uppercase;
+	font-size: 75px;
+	letter-spacing: 8px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	color: white;
+}
+
+.images{
+	position: absolute;
+	display: block;
+	width: 19%;
+	top: 30%;
+	left: 65%;
+	background-color: transparent;
+  filter: drop-shadow(10px 10px 6px #0205d685);
+}
+
+/*
+Form Section
+*/
+
+
+
+.aboutUs{
+	position: relative;
+	height: 75vh;
+	width: 100%;
+	background: linear-gradient(39deg, rgba(0,0,0,1) 0%, rgba(0,2,55,1) 86%);
+	filter: drop-shadow(10px 10px 6px #000000);
+	color: bisque;
+}
+
+.aboutUsDescription{
+	position: absolute;
+	text-align: start;
+	left: 26.5%;
+	top: 30%;
+	text-align: center;
+}
+
+.aboutUsDescription h1{
+	text-transform: uppercase;
+	font-family: "Anton", sans-serif;
+	font-size: 55px;
+	letter-spacing: 15px;
+	margin-bottom: 10px;
+	color: #5E17EB;
+}
+
+.aboutUsDescription h2{
+	text-transform: uppercase;
+	font-size: 28px;
+	max-width: 1200px;
+	letter-spacing: 8px;
+	font-family: "Anonymous Pro", monospace;
+  font-weight: normal;
+	color: white;
+}
+
+
+.form{
+	position: relative;
+	width: 100%;
+	height: 50vh;
+	text-align: center;
+	filter: drop-shadow(10px 10px 6px #000000);
+	font-size: 25px;
+	background: linear-gradient(39deg, rgba(0,0,0,1) 0%, rgba(0,2,55,1) 86%);
+}
+
+.testElements{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 35vh;
+	top: 30%;
+}
+
+.form h1 {
+	position: absolute;
+	left: 41.2%;
+	font-family: "Anton", sans-serif;
+	margin-top: 25px;
+	font-size: 2vw;
+	letter-spacing: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	filter: drop-shadow(5px 5px 3px #ffffff85);
+}
+
+.formImage1{
+	position: absolute;
+	left: 30%;
+	width: 5%;
+	color: white;
+}
+
+.formImage2{
+	position: absolute;
+	margin-top: -10px;
+	left: 47.35%;
+	width: 6%;
+	color: white;
+}
+
+.formImage3{
+	position: absolute;
+	width: 8%;
+	margin-top: -34px;
+	right: 28%;
+}	
+
+.form a{
+	margin-left: 250px;
+}
+
+.form p {
+	font-size: 15px;
+	position: absolute;
+	bottom: 0%;
+	left: 44.2%;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	opacity: 50%;
+}
